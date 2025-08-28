@@ -1,0 +1,48 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  text-align: center;
+  direction: rtl;
+}
+
+header {
+  background: #198754;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
+  position: relative;
+}
+
+.logo-left, .logo-right {
+  position: fixed;
+  top: 10px;
+  width: 60px;
+  height: auto;
+}
+
+.logo-left {
+  left: 10px;
+}
+
+.logo-right {
+  right: 10px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: right;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
